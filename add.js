@@ -4,6 +4,7 @@ const tgl = document.getElementById("tgl")
 const done = document.querySelector(".done")
 
 function clk() {
+  //nambah komentar
   if (task.value === "") {
     alert("Isi terlebih dahulu");
   } else {
